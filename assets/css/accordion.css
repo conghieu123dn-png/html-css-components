@@ -52,13 +52,13 @@
   gap: 12px;
 }
 
-.open .accordion-action-order,
-.open .accordion-action-title {
+.accordion-item-open .accordion-action-order,
+.accordion-item-open .accordion-action-title {
   color: #087f5b;
   font-size: 24px;
   font-weight: 500;
 }
-.open.accordion-action-title {
+.accordion-item-open.accordion-action-title {
   flex: 1;
   text-align: left;
   line-height: 1;
@@ -66,14 +66,14 @@
 .accordion-content {
   display: none;
 }
-.open .accordion-content {
+.accordion-item-open .accordion-content {
   display: block;
   padding: 32px 50px;
 }
-.open .accordion-content p {
+.accordion-item-open .accordion-content p {
   margin-bottom: 24px;
   line-height: 1.6;
 }
-.open.accordion-item {
+.accordion-item-open.accordion-item {
   border-top: 4px solid #087f5b;
 }
